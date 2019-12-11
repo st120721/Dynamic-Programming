@@ -92,8 +92,8 @@ class Environment:
             adjacent_s = around_states[action][1:3]
             successors = [adjacent_s[x] for x in range(2) if self.maze[adjacent_s[x]] != "1"]
             probabilities = [p] * len(successors)
-            probabilities.append(1 - p * len(successors))
             successors.append(around_states[action][0])
+            probabilities.append(1 - p * len(successors))
         return dict(zip(successors, probabilities))
 
     def get_successors_and_probabilities_of_all_states(self):
@@ -106,23 +106,13 @@ class Environment:
         """
         all_dict = {}
         for i, state in enumerate(self.get_all_possible_states()):
-            all_dict[state] = dict(index=i)
+            all_dict[state] = {}
+            all_dict[state]["index"] = i
             for action in self.get_allowed_actions(state):
-                # get successor and probabilities for a certain state and action
                 all_dict[state][action] = self.get_successors_and_probabilities(state, action)
         return all_dict
 
     def compute_g1(self, state, action):
-        """
-        compute cost to go 1
-
-        Args:
-            state (tuple): input state
-            action (int): action to be taken
-
-        Returns:
-            cost to go 1
-        """
         if self.maze[state] == "G":
             return -1
         around_states = self.get_around_states(state)
@@ -133,16 +123,6 @@ class Environment:
             return 0
 
     def compute_g2(self, state, action):
-        """
-        compute cost to go 2
-
-        Args:
-            state (tuple): input state
-            action (int): action to be taken
-
-        Returns:
-            cost to go 2
-        """
         g1_to_g2 = {-1: 0,
                     50: 50,
                     0: 1}

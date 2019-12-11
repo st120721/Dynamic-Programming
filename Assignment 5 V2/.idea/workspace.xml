@@ -2,29 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f84ccad-c0d0-482f-9894-cd7d560f9fa5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Assignment 3/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment 3/.idea/Assignment 3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Assignment 5 V2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment_5.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic_programming.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dynamic_programming2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/environment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maze.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maze2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment 5/.idea/Assignment 5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment 5/dynamic_programming.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment 5/environment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment 5/maze.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment 5/maze_2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Assignment 5/text.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment 3/DP.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment 3/DP.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment 3/Investigating_Policy.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment 3/Investigating_Policy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/1. compare g1 and g2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2. investigate discount factor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3. policy of r=0.01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/4. runtime of VI, PI and OPI.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/5. runtime of OPI for different m.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/environment1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Assignment 5 V2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Assignment 5 V2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic_programming.py" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_programming.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dynamic_programming2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/environment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
     </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,15 +54,27 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Code\DPA\Dynamic-Programming\Assignment 5 V2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.dynamic_programming">
-    <configuration name="dynamic_programming" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.t">
+    <configuration name="dynamic_programming (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Assignment 5 V2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -90,7 +95,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dynamic_programming2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dynamic_programming" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Assignment 5 V2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -102,7 +107,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dynamic_programming2.py" />
+      <option name="SCRIPT_NAME" value="D:\Code\DPA\Dynamic-Programming\Assignment 5 V2\dynamic_programming_v 2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -111,7 +116,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="environment" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dynamic_programming_v 2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Assignment 5 V2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -123,7 +128,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/environment.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dynamic_programming_v 2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -132,7 +137,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Assignment 5 V2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -144,7 +149,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="t" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Assignment 5 V2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/t.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,24 +181,13 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.t" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.dynamic_programming_v 2" />
+        <item itemvalue="Python.dynamic_programming (1)" />
         <item itemvalue="Python.dynamic_programming" />
-        <item itemvalue="Python.dynamic_programming2" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.environment" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -186,6 +201,19 @@
       <updated>1575498396247</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state width="1343" height="272" key="GridCell.Tab.0.bottom" timestamp="1575594189261">
