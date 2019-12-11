@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0f84ccad-c0d0-482f-9894-cd7d560f9fa5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Assignment 3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 3/.idea/Assignment 3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Assignment 5 V2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment_5.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic_programming.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dynamic_programming2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/environment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/maze2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 5/.idea/Assignment 5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 5/dynamic_programming.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 5/environment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 5/maze.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 5/maze_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Assignment 5/text.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment 3/DP.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment 3/DP.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment 3/Investigating_Policy.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Assignment 3/Investigating_Policy.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Assignment 5 V2" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\Code\DPA\Dynamic-Programming\Assignment 5 V2\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UXMHFz5oDO697tWBwSYusTysSv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\DPA\Dynamic-Programming\Assignment 5 V2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.dynamic_programming">
+    <configuration name="dynamic_programming" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Assignment 5 V2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dynamic_programming.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dynamic_programming2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Assignment 5 V2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dynamic_programming2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="environment" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Assignment 5 V2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/environment.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Assignment 5 V2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.dynamic_programming" />
+        <item itemvalue="Python.dynamic_programming2" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.environment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0f84ccad-c0d0-482f-9894-cd7d560f9fa5" name="Default Changelist" comment="" />
+      <created>1575498396247</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575498396247</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1343" height="272" key="GridCell.Tab.0.bottom" timestamp="1575594189261">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1343" height="272" key="GridCell.Tab.0.bottom/0.0.1368.872@0.0.1368.872" timestamp="1575594189261" />
+    <state width="1343" height="272" key="GridCell.Tab.0.center" timestamp="1575594189261">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1343" height="272" key="GridCell.Tab.0.center/0.0.1368.872@0.0.1368.872" timestamp="1575594189261" />
+    <state width="1343" height="272" key="GridCell.Tab.0.left" timestamp="1575594189261">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1343" height="272" key="GridCell.Tab.0.left/0.0.1368.872@0.0.1368.872" timestamp="1575594189261" />
+    <state width="1343" height="272" key="GridCell.Tab.0.right" timestamp="1575594189261">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1343" height="272" key="GridCell.Tab.0.right/0.0.1368.872@0.0.1368.872" timestamp="1575594189261" />
+    <state width="1342" height="268" key="GridCell.Tab.1.bottom" timestamp="1575514016299">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1342" height="268" key="GridCell.Tab.1.bottom/0.0.1368.872@0.0.1368.872" timestamp="1575514016299" />
+    <state width="1342" height="268" key="GridCell.Tab.1.center" timestamp="1575514016299">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1342" height="268" key="GridCell.Tab.1.center/0.0.1368.872@0.0.1368.872" timestamp="1575514016299" />
+    <state width="1342" height="268" key="GridCell.Tab.1.left" timestamp="1575514016299">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1342" height="268" key="GridCell.Tab.1.left/0.0.1368.872@0.0.1368.872" timestamp="1575514016299" />
+    <state width="1342" height="268" key="GridCell.Tab.1.right" timestamp="1575514016299">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1342" height="268" key="GridCell.Tab.1.right/0.0.1368.872@0.0.1368.872" timestamp="1575514016299" />
+    <state x="70" y="0" key="SettingsEditor" timestamp="1575500328452">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="70" y="0" key="SettingsEditor/0.0.1368.872@0.0.1368.872" timestamp="1575500328452" />
+    <state x="447" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1575587193868">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="447" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1368.872@0.0.1368.872" timestamp="1575587193868" />
+    <state x="263" y="0" width="840" height="1034" key="search.everywhere.popup" timestamp="1575546066285">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="263" y="0" width="840" height="1034" key="search.everywhere.popup/0.0.1368.872@0.0.1368.872" timestamp="1575546066285" />
+  </component>
+</project>

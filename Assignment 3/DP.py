@@ -60,7 +60,8 @@ def dynamic_programming():
 
     """
     print("-----------------------------")
-    print("Start DP:")
+    print("Start Dynamic Programming:")
+    print("\n k=N")
     # K=N
     for i, state in enumerate(all_states):
         cost = e.compute_gn(state)
@@ -78,4 +79,6 @@ def dynamic_programming():
     np.savetxt("Vk.csv", value_table, fmt="%s", delimiter=',')
     np.savetxt("policy.csv", policy_table, fmt="%s", delimiter=',')
 
-dynamic_programming()
+
+# dynamic_programming()   # run DP
+

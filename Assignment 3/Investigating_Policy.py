@@ -2,6 +2,9 @@ import numpy as np
 import Environment as e
 import random
 import matplotlib.pyplot as plt
+import DP
+# run Dynamic Programming to get the results
+DP.dynamic_programming()
 
 all_states = e.get_all_states()  # all possible states
 Vk = np.load("Vk.npy")  # load Vk
@@ -11,13 +14,13 @@ policy = np.load("policy.npy")  # load policy
 chance_to_complete_jobs = e.chance_to_complete_jobs
 print("Chance to complete jobs:\n{}\n".format(chance_to_complete_jobs))
 
-random_state_1 = ((2, 0, 0), (0, 0, 0), (1, 0, 0), 1)  # a state with almost empty queues
+random_state_1 = ((2, 0, 0), (0, 0, 0), (1, 0, 0), 2)  # a state with almost empty queues
 index_1 = all_states.index(random_state_1)
 u1 = policy[index_1][0]
 e.print_state_in_console(random_state_1)
 print("optimal action: {}\n".format(u1))
 
-random_state_2 = ((2, 2, 1), (1, 2, 0), (1, 1, 1), 2)  # a state with almost empty queues
+random_state_2 = ((1, 2, 0), (1, 2, 1), (2, 2, 0), 1)  # a state with almost empty queues
 index_2 = all_states.index(random_state_2)
 u2 = policy[index_2][0]
 e.print_state_in_console(random_state_2)
@@ -25,12 +28,6 @@ print("optimal action: {}\n".format(u2))
 
 
 # Task 2
-def compare_policy_of_stages():
-
-    pass
-
-
-# Task 3
 def plot_trajectories_data(stage, iteration, repetition):
     """
     draw the plot of min, max, mean of sum for cost-to-go of generated trajectories
