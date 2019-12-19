@@ -2,22 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f84ccad-c0d0-482f-9894-cd7d560f9fa5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1. compare g1 and g2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2. investigate discount factor.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3. policy of r=0.01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4. runtime of VI, PI and OPI.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/5. runtime of OPI for different m.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/environment1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assignment 5.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment 3/.idea/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment 3/.idea/inspectionProfiles/desktop.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignment 3/desktop.ini" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Assignment 5 V2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Assignment 5 V2.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. compare g1 and g2.png" beforeDir="false" afterPath="$PROJECT_DIR$/1. compare g1 and g2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2. investigate discount factor.png" beforeDir="false" afterPath="$PROJECT_DIR$/2. investigate discount factor.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3. policy of r=0.01.png" beforeDir="false" afterPath="$PROJECT_DIR$/3. policy of r=0.01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4. runtime of VI, PI and OPI.png" beforeDir="false" afterPath="$PROJECT_DIR$/4. runtime of VI, PI and OPI.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5. runtime of OPI for different m.png" beforeDir="false" afterPath="$PROJECT_DIR$/5. runtime of OPI for different m.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dynamic_programming.py" beforeDir="false" afterPath="$PROJECT_DIR$/dynamic_programming.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dynamic_programming2.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/environment.py" beforeDir="false" afterPath="$PROJECT_DIR$/environment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/environment1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maze2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/maze2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../desktop.ini" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,24 +57,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\DP\Dynamic-Programming\Assignment 5 V2" />
       <recent name="D:\Code\DPA\Dynamic-Programming\Assignment 5 V2" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Python.t">
     <configuration name="dynamic_programming (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -189,6 +181,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -216,22 +220,26 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1343" height="272" key="GridCell.Tab.0.bottom" timestamp="1575594189261">
+    <state x="93" y="93" width="1181" height="685" key="DiffContextDialog" timestamp="1576682225318">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1343" height="272" key="GridCell.Tab.0.bottom/0.0.1368.872@0.0.1368.872" timestamp="1575594189261" />
-    <state width="1343" height="272" key="GridCell.Tab.0.center" timestamp="1575594189261">
+    <state x="93" y="93" width="1181" height="685" key="DiffContextDialog/0.0.1368.872@0.0.1368.872" timestamp="1576682225318" />
+    <state width="1343" height="272" key="GridCell.Tab.0.bottom" timestamp="1576154756856">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1343" height="272" key="GridCell.Tab.0.center/0.0.1368.872@0.0.1368.872" timestamp="1575594189261" />
-    <state width="1343" height="272" key="GridCell.Tab.0.left" timestamp="1575594189261">
+    <state width="1343" height="272" key="GridCell.Tab.0.bottom/0.0.1368.872@0.0.1368.872" timestamp="1576154756856" />
+    <state width="1343" height="272" key="GridCell.Tab.0.center" timestamp="1576154756854">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1343" height="272" key="GridCell.Tab.0.left/0.0.1368.872@0.0.1368.872" timestamp="1575594189261" />
-    <state width="1343" height="272" key="GridCell.Tab.0.right" timestamp="1575594189261">
+    <state width="1343" height="272" key="GridCell.Tab.0.center/0.0.1368.872@0.0.1368.872" timestamp="1576154756854" />
+    <state width="1343" height="272" key="GridCell.Tab.0.left" timestamp="1576154756853">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state width="1343" height="272" key="GridCell.Tab.0.right/0.0.1368.872@0.0.1368.872" timestamp="1575594189261" />
+    <state width="1343" height="272" key="GridCell.Tab.0.left/0.0.1368.872@0.0.1368.872" timestamp="1576154756853" />
+    <state width="1343" height="272" key="GridCell.Tab.0.right" timestamp="1576154756855">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1343" height="272" key="GridCell.Tab.0.right/0.0.1368.872@0.0.1368.872" timestamp="1576154756855" />
     <state width="1342" height="268" key="GridCell.Tab.1.bottom" timestamp="1575514016299">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
@@ -248,10 +256,14 @@
       <screen x="0" y="0" width="1368" height="872" />
     </state>
     <state width="1342" height="268" key="GridCell.Tab.1.right/0.0.1368.872@0.0.1368.872" timestamp="1575514016299" />
-    <state x="70" y="0" key="SettingsEditor" timestamp="1575500328452">
+    <state x="70" y="0" key="SettingsEditor" timestamp="1576141682408">
       <screen x="0" y="0" width="1368" height="872" />
     </state>
-    <state x="70" y="0" key="SettingsEditor/0.0.1368.872@0.0.1368.872" timestamp="1575500328452" />
+    <state x="70" y="0" key="SettingsEditor/0.0.1368.872@0.0.1368.872" timestamp="1576141682408" />
+    <state x="93" y="93" width="1181" height="685" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1576682225318">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="93" y="93" width="1181" height="685" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1368.872@0.0.1368.872" timestamp="1576682225318" />
     <state x="447" y="330" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1575587193868">
       <screen x="0" y="0" width="1368" height="872" />
     </state>

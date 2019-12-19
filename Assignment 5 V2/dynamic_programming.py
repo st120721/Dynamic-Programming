@@ -1,8 +1,9 @@
 """
-    This module realize Value Iteration(VI), Policy Iteration(PI)
+    This module realizes Value Iteration(VI), Policy Iteration(PI)
     and Optimistic Policy Iteration(OPI) of Dynamic Programming.
 """
 import matplotlib.pyplot as plt
+from mpl_toolkits.axes_grid1 import make_axes_locatable
 import numpy as np
 
 
@@ -20,7 +21,7 @@ class DP:
         self.gamma = gamma
         self.threshold = 0.0001
         self.all_states = self.environment.get_all_possible_states()
-        self.all_successors = self.environment.get_successors_and_probabilities_of_all_states()
+        self.maze_dict = self.environment.get_successors_and_probabilities_of_all_states()
         self.functions_of_cost_to_go = dict(g1=self.environment.compute_g1,
                                             g2=self.environment.compute_g2)
         self.functions_of_iterations = dict(VI=self.value_iteration,
@@ -29,21 +30,22 @@ class DP:
 
     def compute_expectation(self, state, action, v, cost_to_go):
         """
-        calculate expectation over successors for a certain state and action
+        calculate the expectation over successors for a certain state and action
 
         Args:
             state (tuple): input state
             action (int or list): action to be taken
             v (np.array): value function of successors
-            cost_to_go (function): function of computing cost to go
+            cost_to_go (function): function of computing cost-to-go
 
         Returns:
             expectation(int): expectation
         """
+        # choose one action if multiple actions are allowed for the state
         action = action[0] if isinstance(action, list) else action
         expectation = cost_to_go(state, action)
-        expectation += self.gamma * sum([p * v[self.all_successors[s]["index"]]
-                                         for s, p in self.all_successors[state][action].items()])
+        expectation += self.gamma * sum([p * v[self.maze_dict[s]["index"]]
+                                         for s, p in self.maze_dict[state][action].items()])
         return expectation
 
     def optimal_bellman_operator(self, v, cost_to_go):
@@ -52,7 +54,7 @@ class DP:
 
         Args:
             v (np.array): value function of successors
-            cost_to_go (function): function of computing cost to go
+            cost_to_go (function): function of computing cost-to-go
 
         Returns:
             value_function(np.array): optimal value function
@@ -76,7 +78,7 @@ class DP:
         Args:
             policy(list): input policy
             v (np.array): value function of successors
-            cost_to_go (function): function of computing cost to go
+            cost_to_go (function): function of computing cost-to-go
 
         Returns:
             v(np.array): value function of input policy
@@ -91,19 +93,20 @@ class DP:
         Value Iteration(VI)
 
         Args:
-            cost_to_go (function): function of computing cost to go
+            cost_to_go (function): function of computing cost-to-go
 
         Returns:
             v(np.array): optimal value function
             policy(list): optimal policy
         """
-        # initial value function with zeros
+        # initialize all zero vector as value function
         v = np.zeros(len(self.all_states))
         while True:
             temp_v = v.copy()
             v, policy = self.optimal_bellman_operator(v, cost_to_go)
 
-            # finish VI if value function for each state in two adjacent stages is smaller als threshold
+            # exit loop if the following condition is satisfied:
+            # if value function of each state in k and k+1 stages is smaller than threshold
             is_under_threshold = np.abs(v - temp_v) <= self.threshold
             if np.all(is_under_threshold):
                 break
@@ -114,28 +117,31 @@ class DP:
         Policy Iteration(PI)
 
         Args:
-            cost_to_go (function): function of computing cost to go
+            cost_to_go (function): function of computing cost-to-go
 
         Returns:
             v(np.array): optimal value function
             policy(list): optimal policy
         """
-        # initial value function and policy
+        # initialize value function and policy
         policy = [[self.environment.get_allowed_actions(s)[0]] for s in self.all_states]
         v = np.zeros(len(self.all_states))
         while True:
             # infinite policy iteration
+            # get value function under the policy
             while True:
                 temp_v = v.copy()
                 v = self.bellman_operator(policy, v, cost_to_go)
-                # end condition of IPE
+
+                # exit condition of IPE
                 is_under_threshold = np.abs(v - temp_v) <= self.threshold
                 if np.all(is_under_threshold):
                     break
 
             # policy improvement
             temp_v, policy = self.optimal_bellman_operator(v, cost_to_go)
-            # end condition of PI
+
+            # exit condition of PI
             is_under_threshold = np.abs(v - temp_v) <= self.threshold
             if np.all(is_under_threshold):
                 break
@@ -146,7 +152,7 @@ class DP:
         Optimistic Policy Iteration(OPI)
 
         Args:
-            cost_to_go (function): function of computing cost to go
+            cost_to_go (function): function of computing cost-to-go
             m (int): number of iterations (default: 50)
 
         Returns:
@@ -154,7 +160,7 @@ class DP:
             policy(list): optimal policy
 
         """
-        # initial value function with zeros
+        # initialize value function with zeros
         v = np.zeros(len(self.all_states))
         while True:
             temp_v = v.copy()
@@ -164,7 +170,7 @@ class DP:
             for x in range(m):
                 v = self.bellman_operator(policy, v, cost_to_go)
 
-            # end condition of OPI
+            # exit condition of OPI
             is_under_threshold = np.abs(v - temp_v) <= self.threshold
             if np.all(is_under_threshold):
                 break
@@ -184,23 +190,25 @@ class DP:
         for state, value, action in zip(self.all_states, v, policy):
             maps[state] = value
             i, j = state
-            # The policy for a state contains more than two actions.
+            # The policy of a state contains more than two actions.
             if len(action) > 1:
                 for u in action:
-                    x, y = self.environment.get_around_states(state)[u][0]
+                    x, y = self.environment.get_neighbour_states(state)[u][0]
                     plt.arrow(j, i, (y - j) * 0.25, (x - i) * 0.25, head_width=0.15, fc="k")
-            # There is only one action in the policy for a state.
+            # There is only one action in the policy of a state.
             elif action[0]:
-                x, y = self.environment.get_around_states(state)[action[0]][0]
+                x, y = self.environment.get_neighbour_states(state)[action[0]][0]
                 plt.arrow(j, i, (y - j) * 0.25, (x - i) * 0.25, head_width=0.15, fc="k")
             # plot point in goal state
             else:
                 plt.plot(j, i, ".", c="k")
         cm = plt.get_cmap("RdBu")
         cm.set_bad(color="k")  # set wall color
-        plt.imshow(maps, cmap=cm)
+        im = plt.imshow(maps, cmap=cm)
         plt.title(title, fontweight='bold')
-        plt.colorbar()
         plt.xlabel("index j")
         plt.ylabel("index i")
         plt.gca().invert_yaxis()
+        divider = make_axes_locatable(plt.gca())
+        cax = divider.append_axes("right", "5%", pad="3%")
+        plt.colorbar(im, cax=cax)
